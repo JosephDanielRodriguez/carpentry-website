@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="ContactUsCSS.css">
+        <title>Lazaro Carpentry - Contact Us</title>
+        <center><h1 id="title">Lazaro Carpentry</h1>
+        <img src="icon.png" style="width: 200px;height: 150px;"></center>
+    </head>
+    <body>
+        <br>
+        <br>
+        <!--Navigation Bar-->
+        <center><ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="LatestProjectsHTML.html">Latest Projects</a></li>
+            <li class="active"><a href="ContactUsHTML.html">Contact Us</a></li>
+        </ul>
+        <br>
+        <br>
+        <h1 id="subtitle">Want to get in touch with us? Get custom furniture? Ask about pricing?
+            Fill out our form and we'll get in touch with you!
+        </h1></center>
+        <br>
+        <br>
+        <br>
+        <!--************Contact Form*************-->
+
+        <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="First, Middle, and Last name..">
+              
+                  <label for="email">Email Address</label>
+                  <input type="text" id="email" name="email" placeholder="Your email address..">
+              
+                  <label for="inquire">What are you asking about?</label>
+                  <select id="inquire" name="inquire">
+                    <option value="getInTouch">Contact the store</option>
+                    <option value="customFurniture">Custom Furniture</option>
+                    <option value="pricing">Inquire about pricing</option>
+                    <option value="other">Other</option>
+
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Give any extra details.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        <br>
+        <p id="text">(Note: This form does not get sent anywhere)</p>
+        <br>
+        <br>
+        <center><i><p id="ending">&copy; 2019 Lazaro Carpentry. All Rights Reserved (this is fake)</p></i></center>
+
+    </body>
+</html>

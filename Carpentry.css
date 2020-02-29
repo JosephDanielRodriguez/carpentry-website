@@ -1,0 +1,86 @@
+/* Header */
+
+#title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700;
+    font-size: 100px;
+    color: chocolate;
+    font-style: 5px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    text-align: center;
+}
+
+#motto {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(122, 51, 0);
+    font-style: 5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+
+/* Navigation Bar Styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 481px;
+    border: 4px solid yellow;
+    font-size: 30px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(36, 36, 36);
+  }
+
+  .active {
+      background-color: rgb(102, 95, 0);
+  }
+
+/* Background */
+
+body {
+    background-image: url(background.png);
+}
+
+#subtitle {
+    color: rgb(122, 51, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 55px;
+    text-align: center;
+}
+
+#text {
+    color: chocolate;
+    font-size: 20px;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    text-align: center;
+    margin: 30px 400px 5px 400px;
+}
+
+#photo {
+    border: 2px solid black;
+}
+
+#ending {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
